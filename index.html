@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>PortFolio</title>
+    <link rel="shortcut icon" href="./icons8-coding-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader">
+        <p class="p-1">Welcome to my PortFolio</p>
+    </div>
+    <div id="content" style="display:none; margin-top: -16px;">
+        <section class="bg-dark">
+
+            <header>
+                <nav>
+                    <div class="container mt-3">
+                        <div class="navbar pt-4">
+                            <div class="navbar-1">
+                                <div class="img">
+                                    <a href="#"><i class="fa-solid fa-code img-icon-code"></i></a>
+                                </div>
+                                <h3 class="coloring fs-1 transition">RoshuBytes</h3>
+                            </div>
+                            <div class="navbar-side">
+                                <ul class="navbar-side-2">
+                                    <li><a href="" class="coloring">Home</a></li>
+                                    <li><a href="" class="coloring">About</a></li>
+                                    <li><a href="" class="coloring">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="hamburger">
+                                <i class="fa-solid fa-bars hamburger"></i>
+                            </div>
+                            <div class="mobile-menu">
+                                <ul>
+                                    <li><a href="#" class="coloring-1">Home</a></li>
+                                    <li><a href="#" class="coloring-1">About</a></li>
+                                    <li><a href="#" class="coloring-1">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </header>
+
+            <main class="container mt-3 wh-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-padding">
+                            <h3 class="coloring coloring-1">Hey 👋 My name is Roshaan Ali. I am nineteen years old. I am
+                                a
+                                Front-End Developer.</h3>
+                            <button class="btn btn-design">Hire Me <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="gallery">
+                            <div class="gallery-1">
+                                <div class="gallery-item">
+                                    <img src="./1.jpeg" alt="Image 1">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="./2.jpeg" alt="Image 2">
+                                </div>
+                            </div>
+                            <div class="gallery-2">
+                                <div class="gallery-item">
+                                    <img src="./3.jpeg" alt="Image 3">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="./4.jpeg" alt="Image 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+        <section class="bg-white pt-5 pb-5">
+            <div class="container">
+                <div class="skills">
+                    <h1 class="skills-1">HTML</h1>
+                    <h1 class="skills-2">CSS</h1>
+                    <h1 class="skills-3">Tailwind CSS</h1>
+                    <h1 class="skills-4">Bootstrap 5</h1>
+                    <h1 class="skills-5">Javascript</h1>
+                </div>
+                <div class="info">
+                    <h1 class="coloring-2">Education:</h1>
+                    <p class="coloring-2">My name is Roshaan Ali, and I am from Pakistan. My father, Shahid Mushtaq,
+                        is a lawyer. I
+                        come from a middle-class family. I am 19 years old.
+                        I pass my matriculaton degree in 2021 and got <b>1040/1100</b> marks. The name of
+                        Institution is Allied School.Then I pass out my college in 2023 and got <b>801/1100</b> from
+                        Concordia College. Now I am currently pursuing higher education.
+                    </p>
+                </div>
+                <div class="contact-form row pt-3">
+                    <div class="col-md-6">
+                        <h1 class="coloring-2">Contact Us:</h1>
+                        <div class="contact-label">
+                            <form action="#" method="post" class="contact-form-1">
+                                <label for="name" class="coloring-2"
+                                    style="padding-top: 10px; font-size: 20px;">Name:</label>
+                                <input type="text" id="name" class="input-label" name="name" required
+                                    placeholder="Enter Your Name Here....">
+
+                                <label for="email" class="coloring-2"
+                                    style="padding-top: 10px; font-size: 20px;">Email:</label>
+                                <input type="email" id="email" class="input-label" name="email" required
+                                    placeholder="Enter Your Email Here....">
+
+                                <label for="message" class="coloring-2"
+                                    style="padding-top: 10px; font-size: 20px;">Message:</label>
+                                <textarea id="message" name="message" rows="4" class="input-label" required
+                                    placeholder="Enter Your Text Here...."></textarea>
+                                <div class="btn-padding">
+                                    <button type="submit" class="btn-design-1 mt-3">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="video-container">
+                                <iframe id="video" src="./lv-1.mp4" frameborder="0"></iframe>
+                            </div>
+                    </div>
+                </div>
+        </section>
+
+        <footer class="bg-dark text-center text-lg-start pt-3">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <a href="./index.html" class="coloring-1"
+                            style="font-size: 25px;    padding-left: 20px;">RoshuBytes</a>
+                        <div class="icons">
+
+                           <a href="https://www.facebook.com/roshaan.awan" target="_blank"> <i class="fa-brands fa-facebook-f facebook-icon"></i></a>
+                           <a href="https://www.instagram.com/roshi._.awan/" target="_blank"></a> <i class="fa-brands fa-instagram instagram-icon"></i></a>
+                           <a href="https://www.linkedin.com/in/roshaan-awan-b023ba29a/" target="_blank"><i class="fa-brands fa-linkedin-in linkedin-icon"></i></a>
+                           <a href="https://www.twitter.com/in/roshaan-awan/" target="_blank"><i class="fa-brands fa-twitter twitter-icon"></i></a>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="coloring-1" style="font-size: 20px;">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="coloring-1" style="font-size: 20px;">About</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="coloring-1" style="font-size: 20px;">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h3 class="coloring-1">Feedback:</h3>
+                        <textarea rows="4" class="input-label-1" required
+                            placeholder="Enter Your Feedback Here...."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3 coloring-1" style="background-color: rgba(0, 0, 0, 0.2);" >
+                © 2020 Copyright:
+                <a href="./index.html" class="coloring-1">RoshuBytes</a>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
